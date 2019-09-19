@@ -3,7 +3,7 @@ name: NativeScript Info
 on: [push]
 
 jobs:
-  into:
+  info:
 
     runs-on: windows-latest
 

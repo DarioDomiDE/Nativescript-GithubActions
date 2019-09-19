@@ -3,7 +3,7 @@ name: NativeScript TSLint
 on: [push]
 
 jobs:
-  ts_lint:
+  tslint:
 
     runs-on: ${{ matrix.os }}
     strategy:
