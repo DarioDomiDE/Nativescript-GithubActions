@@ -10,9 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: install nativescript
-      run: |
-      npm i -g nativescript@latest
-      npm i tns-core-modules@latest
+      run: npm i nativescript tns-core-modules
     - name: npm i and lint
       run: |
         npm i
