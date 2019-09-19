@@ -13,7 +13,8 @@ jobs:
       run: |
         npm i
     - name: NativeScript Version
-      run: ./tns --version
+      run: .\tns --version
+    shell: bash
     - name: NativeScript Repo Dependencies Infos
       run: .\tns info
     - name: NativeScript Doctor
