@@ -3,14 +3,14 @@ name: NativeScript Info
 on: [push]
 
 jobs:
-  build:
+  into:
 
     runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v1
-    - name: npm Install
+    - name: Npm Install
       run: npm i
-    - name: NativeScript Repo Dependencies Infos
+    - name: TNS Infos
       run: .\tns info
       # ToDo if text condains "Update", do Fail (exit 1)

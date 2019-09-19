@@ -1,16 +1,11 @@
-name: NativeScript TSLint
+name: NativeScript Build Android
 
 on: [push]
 
 jobs:
   build:
 
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest]
-        
-    # runs-on: windows-latest
+    runs-on: windows-latest
     # node-version: 12.x
 
     steps:
@@ -24,5 +19,5 @@ jobs:
         npm i
     - name: Install Angular CLI
       run: npm install @angular/cli
-    - name: tslint
-      run: npm run build
+    - name: Build Android
+      run: .\tns build Android
