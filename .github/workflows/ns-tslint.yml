@@ -9,11 +9,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Install NativeScript CLI and npm i
+    - name: npm Install
       run: |
         npm i
     - name: NativeScript Version
-      run: .\tns --version
+      run: ./tns --version
     - name: NativeScript Repo Dependencies Infos
       run: .\tns info
     - name: NativeScript Doctor
