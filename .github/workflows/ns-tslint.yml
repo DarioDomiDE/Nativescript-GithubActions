@@ -8,9 +8,9 @@ jobs:
     runs-on: windows-latest
     # node-version: 12.x
 
-    # strategy:
-      # matrix:
-        # command: [info, doctor]
+    strategy:
+      matrix:
+        command: [info, doctor]
 
     steps:
     - uses: actions/checkout@v1
