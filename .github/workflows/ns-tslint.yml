@@ -18,6 +18,6 @@ jobs:
     - name: npm i and lint
       run: |
         npm i
-        npm run tslint
+        npm run lint
       env:
         CI: true
