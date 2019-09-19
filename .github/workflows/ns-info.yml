@@ -1,0 +1,17 @@
+name: NativeScript Info
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: npm Install
+      run: npm i
+    - name: NativeScript Repo Dependencies Infos
+      run: .\tns info
+      env:
+        CI: true
