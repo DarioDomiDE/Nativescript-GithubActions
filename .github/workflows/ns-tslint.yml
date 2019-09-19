@@ -1,4 +1,4 @@
-name: Nativescript TSLint
+name: NativeScript TSLint & doctor
 
 on: [push]
 
@@ -9,12 +9,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Install Nativescript CLI
+    - name: Install NativeScript CLI
       run: npm install nativescript@latest
-    - name: GET NS Version
-      run: |
-      echo Using following Nativescript Version
-      .\tns --version
+    - name: NativeScript Version
+      run: .\tns --version
+    - name: NativeScript Repo Dependencies Infos
+      run: .\tns info
+    - name: NativeScript Doctor
+      run: .\tns Doctor
     - name: Install Angular CLI
       run: npm install @angular/cli
     - name: npm i and lint
