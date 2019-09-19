@@ -13,5 +13,4 @@ jobs:
       run: npm i
     - name: NativeScript Repo Dependencies Infos
       run: .\tns info
-      env:
-        CI: true
+      # ToDo if text condains "Update", do Fail (exit 1)
