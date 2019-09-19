@@ -6,24 +6,33 @@ jobs:
   build:
 
     runs-on: windows-latest
+    # node-version: 12.x
+
+    # strategy:
+      # matrix:
+        # command: [info, doctor]
 
     steps:
     - uses: actions/checkout@v1
+    # - name: Use Node.js ${{ node-version }}
+    #   uses: actions/setup-node@v1
+    #   with:
+    #     node-version: ${{ node-version }}
     - name: npm Install
       run: |
         npm i
     - name: NativeScript Version
       run: .\tns --version
       shell: cmd
-    - name: NativeScript Repo Dependencies Infos
-      run: .\tns info
-    - name: NativeScript Doctor
-      run: .\tns Doctor
+    # - name: NativeScript Repo Dependencies Infos
+    #   run: .\tns info
+    # - name: NativeScript Doctor
+    #   run: .\tns doctor
+    - name: Do NativeScript Task
+    run: ${{ matrix.command }}
     - name: Install Angular CLI
       run: npm install @angular/cli
-    - name: npm i and lint
-      run: |
-        npm i
-        npm run lint
+    - name: tslint
+      run: npm run lint
       env:
         CI: true
