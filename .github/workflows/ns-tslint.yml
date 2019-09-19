@@ -9,8 +9,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: install nativescript
-      run: npm i nativescript tns-core-modules
+    - name: Install Nativescript CLI
+      run: npm install -g nativescript@latest
+    - name: TNS Version
+      run: tns --version
+    - name: Install Angular CLI
+      run: npm install -g @angular/cli
     - name: npm i and lint
       run: |
         npm i
