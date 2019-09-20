@@ -1,6 +1,6 @@
-# Nativescript GithubActions
+# Github Actions <3 NativeScript
 
-Nativescript project based on [Master Detail Angular](https://github.com/NativeScript/nativescript-app-templates/tree/master/packages/template-master-detail-ng) Template.
+NativeScript project based on [Master Detail Angular](https://github.com/NativeScript/nativescript-app-templates/tree/master/packages/template-master-detail-ng) Template.
 
 ## Github Actions
 Workflows installed for
