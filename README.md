@@ -1,8 +1,8 @@
+# Github Actions <3 NativeScript
+
 ![](https://github.com/dariodomide/NativeScript-GithubActions/workflows/TSLint/badge.svg)
 ![](https://github.com/dariodomide/NativeScript-GithubActions/workflows/NativeScript%20Build%20Android/badge.svg)
 ![](https://github.com/dariodomide/NativeScript-GithubActions/workflows/NativeScript%20Build%20Android%20w%2F%20Latest/badge.svg)
-
-# Github Actions <3 NativeScript
 
 NativeScript project based on [Master Detail Angular](https://github.com/NativeScript/nativescript-app-templates/tree/master/packages/template-master-detail-ng) Template.
 
