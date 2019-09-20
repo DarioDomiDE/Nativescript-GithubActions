@@ -1,8 +1,10 @@
 # Nativescript GithubActions
 
-Nativescript project based on [Mster Detail Angular](https://github.com/NativeScript/nativescript-app-templates/tree/master/packages/template-master-detail-ng) Template.
+Nativescript project based on [Master Detail Angular](https://github.com/NativeScript/nativescript-app-templates/tree/master/packages/template-master-detail-ng) Template.
 
-## Github Actions for
+## Github Actions
+Workflows installed for
+
 - [x] TNS Info on Windows & Linux
 - [x] TSLint on Windows
 - [ ] TSLint on Linux
