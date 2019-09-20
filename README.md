@@ -15,3 +15,5 @@ Workflows installed for
 - [ ] Build Android on Mac
 - [ ] Build iOS
 - [x] Build Android on Windows with latest Dependencies
+
+made with <3 in Hamburg
