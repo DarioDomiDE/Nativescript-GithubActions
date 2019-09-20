@@ -1,4 +1,4 @@
-name: NativeScript Info
+name: Latest Dependencies?
 
 on: [push]
 
@@ -13,4 +13,4 @@ jobs:
       run: npm i
     - name: TNS Infos
       run: .\tns info
-      # ToDo if text condains "Update", do Fail (exit 1)
+      # ToDo if text contains "Update", do Fail (exit 1)

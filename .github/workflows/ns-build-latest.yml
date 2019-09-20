@@ -1,4 +1,4 @@
-name: NativeScript Build Android Latest
+name: NativeScript Build Android w/ Latest
 
 on: [push]
 
@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: npm Install & Install Angular CLI
+    - name: Install Dependencies
       run: |
         npm i
         npm install @angular/cli

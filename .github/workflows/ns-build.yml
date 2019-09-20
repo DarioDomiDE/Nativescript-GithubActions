@@ -6,14 +6,9 @@ jobs:
   build:
 
     runs-on: windows-latest
-    # node-version: 12.x
 
     steps:
     - uses: actions/checkout@v1
-    # - name: Use Node.js ${{ node-version }}
-    #   uses: actions/setup-node@v1
-    #   with:
-    #     node-version: ${{ node-version }}
     - name: npm Install
       run: |
         npm i
