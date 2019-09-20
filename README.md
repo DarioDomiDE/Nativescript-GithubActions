@@ -1,5 +1,6 @@
 ![](https://github.com/dariodomide/NativeScript-GithubActions/workflows/TSLint/badge.svg)
-
+![](https://github.com/dariodomide/NativeScript-GithubActions/workflows/NativeScript%20Build%20Android/badge.svg)
+![](https://github.com/dariodomide/NativeScript-GithubActions/workflows/NativeScript%20Build%20Android%20w%2F%20Latest/badge.svg)
 
 # Github Actions <3 NativeScript
 
@@ -8,11 +9,9 @@ NativeScript project based on [Master Detail Angular](https://github.com/NativeS
 ## Github Actions
 Workflows installed for
 
-- [x] TNS Info on Windows & Linux
-- [x] TSLint on Windows
-- [ ] TSLint on Linux
-- [ ] TSLint on Mac
+- [x] TSLint on Linux
 - [x] Build Android on Windows
 - [ ] Build Android on Linux
 - [ ] Build Android on Mac
 - [ ] Build iOS
+- [x] Build Android on Windows with latest Dependencies
