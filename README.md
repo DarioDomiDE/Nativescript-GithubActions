@@ -1,3 +1,6 @@
+![](https://github.com/dariodomide/NativeScript-GithubActions/workflows/TSLint/badge.svg)
+
+
 # Github Actions <3 NativeScript
 
 NativeScript project based on [Master Detail Angular](https://github.com/NativeScript/nativescript-app-templates/tree/master/packages/template-master-detail-ng) Template.
